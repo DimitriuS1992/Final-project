@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    width: 100%;
+    height: 100%%;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+
+}
+
+.navbar-brand img {
+    width: 250px;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important
+}
+
+#headerwrap {
+    background: url(image/header-img-1.jpg)no-repeat center center fixed;
+    background-blend-mode: multiply;
+    background-color: #FFFFFF;
+    margin-top: -10px;
+    text-align: center;
+    min-height: 350px;
+    width: 100%;
+    background-size: cover;
+
+}
+
+#headerwrap h1 {
+    margin-top: 130px;
+    margin-left: 200px;
+    color: white;
+    font-style: italic;
+    font-size: 100px;
+    font-weight: 600;
+    text-shadow: 1px 1px 10px #000;
+    letter-spacing: 3px;
+
+}
+
+#gallerytwrap {
+    background: url(image/header-img-3.jpg)no-repeat center top fixed;
+    background-blend-mode: multiply;
+    background-color: #FFFFFF;
+    margin-top: -10px;
+    text-align: center;
+    min-height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+
+#gallerytwrap h1 {
+    margin-top: 50px;
+    margin-left: 200px;
+    color: white;
+    font-style: italic;
+    font-size: 100px;
+    font-weight: 600;
+    text-shadow: 1px 1px 10px #000;
+    letter-spacing: 3px;
+
+}
+
+#pricewrap {
+    background: url(image/header-img-2.jpg)no-repeat center center fixed;
+    background-blend-mode: multiply;
+    background-color: #FFFFFF;
+    margin-top: -10px;
+    text-align: center;
+    min-height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+
+#pricewrap h1 {
+    margin-top: 130px;
+    margin-left: 200px;
+    color: white;
+    font-style: italic;
+    font-size: 100px;
+    font-weight: 600;
+    text-shadow: 1px 1px 10px #000;
+    letter-spacing: 3px;
+
+}
+
+#contactwrap {
+    background: url(image/header-img-4.jpg)no-repeat center center fixed;
+    background-blend-mode: multiply;
+    background-color: #FFFFFF;
+    margin-top: -10px;
+    text-align: center;
+    min-height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+
+#contactwrap h1 {
+    margin-top: 130px;
+    margin-left: 200px;
+    color: white;
+    font-style: italic;
+    font-size: 100px;
+    font-weight: 600;
+    text-shadow: 1px 1px 10px #000;
+    letter-spacing: 3px;
+
+}
+
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.about img {
+    height: 80%;
+    width: 100%;
+    border-radius: 50%
+}
+
+.about span {
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc h3 {
+    color: #10828C;
+}
+
+.about .desc p {
+    line-height: 2;
+    color: #888;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media(max-width: 760px) {
+    #gallerytwrap h1 {
+        margin-top: 100px;
+        margin-left: 100px;
+        color: white;
+        font-style: italic;
+        font-size: 80px;
+        font-weight: 300;
+        text-shadow: 1px 1px 10px #000;
+        letter-spacing: 1px;
+
+    }
+
+    #headerwrap h1 {
+        margin-top: 100px;
+        margin-left: 30px;
+        color: white;
+        font-style: italic;
+        font-size: 80px;
+        font-weight: 300;
+        text-shadow: 1px 1px 10px #000;
+        letter-spacing: 1px;
+
+    }
+
+    #pricewrap h1 {
+        margin-top: 100px;
+        margin-left: 30px;
+        color: white;
+        font-style: italic;
+        font-size: 80px;
+        font-weight: 300;
+        text-shadow: 1px 1px 10px #000;
+        letter-spacing: 1px;
+
+    }
+
+    #contactwrap h1 {
+        margin-top: 100px;
+        margin-left: 30px;
+        color: white;
+        font-style: italic;
+        font-size: 80px;
+        font-weight: 300;
+        text-shadow: 1px 1px 10px #000;
+        letter-spacing: 1px;
+
+    }
+
+    .about img {
+        height: 80%;
+        width: 80%;
+        border-radius: 50%
+    }
+}
