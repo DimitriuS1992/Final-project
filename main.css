@@ -139,13 +139,11 @@ body {
     
 }
 
-.about .desc h3 {
-    color: #10828C;
-}
 
 .about .desc p {
     line-height: 2;
     color: #888;
+    margin-top: 1.5em;
 }
 
 .map-container {
@@ -164,57 +162,57 @@ body {
 }
 
 @media(max-width: 760px) {
-    #gallerytwrap h1 {
-        margin-top: 100px;
-        margin-left: 100px;
-        color: white;
-        font-style: italic;
-        font-size: 80px;
-        font-weight: 300;
-        text-shadow: 1px 1px 10px #000;
-        letter-spacing: 1px;
+#gallerytwrap h1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+    font-style: italic;
+    font-size: 80px;
+    font-weight: 300;
+    text-shadow: 1px 1px 10px #000;
+    letter-spacing: 1px;
 
-    }
+}
 
-    #headerwrap h1 {
-        margin-top: 100px;
-        margin-left: 30px;
-        color: white;
-        font-style: italic;
-        font-size: 80px;
-        font-weight: 300;
-        text-shadow: 1px 1px 10px #000;
-        letter-spacing: 1px;
+#headerwrap h1 {
+    margin-top: 100px;
+    margin-left: 30px;
+    color: white;
+    font-style: italic;
+    font-size: 80px;
+    font-weight: 300;
+    text-shadow: 1px 1px 10px #000;
+    letter-spacing: 1px;
 
-    }
+}
 
-    #pricewrap h1 {
-        margin-top: 100px;
-        margin-left: 30px;
-        color: white;
-        font-style: italic;
-        font-size: 80px;
-        font-weight: 300;
-        text-shadow: 1px 1px 10px #000;
-        letter-spacing: 1px;
+#pricewrap h1 {
+    margin-top: 100px;
+    margin-left: 30px;
+    color: white;
+    font-style: italic;
+    font-size: 80px;
+    font-weight: 300;
+    text-shadow: 1px 1px 10px #000;
+    letter-spacing: 1px;
 
-    }
+}
 
-    #contactwrap h1 {
-        margin-top: 100px;
-        margin-left: 30px;
-        color: white;
-        font-style: italic;
-        font-size: 80px;
-        font-weight: 300;
-        text-shadow: 1px 1px 10px #000;
-        letter-spacing: 1px;
+#contactwrap h1 {
+    margin-top: 100px;
+    margin-left: 30px;
+    color: white;
+    font-style: italic;
+    font-size: 80px;
+    font-weight: 300;
+    text-shadow: 1px 1px 10px #000;
+    letter-spacing: 1px;
 
-    }
+}
 
-    .about img {
-        height: 80%;
-        width: 80%;
-        border-radius: 50%
-    }
+.about img {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%
+}
 }
